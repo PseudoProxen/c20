@@ -65,6 +65,7 @@ The following is a comprehensive list of arguments. Not all are not documented i
 | Argument                      | Description
 |-------------------------------|----------------
 |`-?` or `-help`                | Displays a list of _most_ arguments. Will fail if using a modified `strings.dll`, e.g. with the [Chimera](~) mod
+|`-cpu n`                         | When using a multi-processor server computer, it is possible to instruct Halo Dedicated Server to run on a specific CPU. To do so, use the –cpu n command line argument (where n is a given CPU, 0 being the first one).
 |`-console`                     | Enables the [developer console](~developer-console), which can be opened with the {% key "~" /%} (tilde) key. This console can be used to enter Halo script commands. Most client mods like HAC2 and [Chimera](~) enable this automatically.
 |`-devmode`                     | Enables developer mode commands ([Custom Edition](~h1) only). This also prevents Internet gameplay when mods are not used. Most client mods like HAC2 and [Chimera](~) enable this mode automatically.
 |`-exec example.txt`            | Causes the game or dedicated server to run the file of console commands on startup.
